@@ -1,1 +1,40 @@
+### Daily Dutiest
+As a Junior Security Analyst, also called a SOC Level 1 Analyst, you work in a 24/7 SOC team and mostly review the security alerts together with your colleagues. During a work shift, you would typically:
 
+- Monitor and investigate various security alerts
+- Participate in SOC brainstorms and workshops
+- Cooperate with other teams to keep your company safe
+- Constantly learn and discover new attacks and defenses
+
+### Being a Security Analyst
+Being in the defensive frontline is not easy, as you have to constantly learn new things. During a busy 8-hour shift, you might be buried under a mountain of "tickets" - the alerts and tasks that you need <br>
+to resolve in a timely manner. Still, the job is fun and rewarding, especially after you stop a real threat from damaging your organization. Even better, it is fascinating to know how the attacks you hear <br>
+about in the news actually happen in the real world.
+
+### Security Hierarchy
+Cyber security priorities are different for every company. For law firms, the goal is the privacy of the legal documents. For factories, the availability of production lines. For hospitals, patient safety.<br> That's
+why every company has a unique security approach and security team structure.
+1. CEO (Executive or company owner): Focused on global business obj
+2. CTO (Security Leadership - CIO, CISO): lead company-wide IT or security program. Chief Information Security Officer (CISO) or a similar role who knows the business needs and can create the most suitable security <br>
+departments.
+3. Security Manager: manage a single team or department like SOC
+4. Technical (SOC Analyst, SOC Engineer, GRC Specialist, Pentester): perform technical tasks
+
+### Security Departments
+
+- Red Team: Offensive security experts, pentesters, or ethical hackers who look for security issues
+- GRC Team: Specialists managing policies and ensuring compliance with regulations like PCI DSS
+- Blue Team: Defensive security experts like SOC analysts, engineers, or incident responders
+
+### Meet The Blue Team
+Blue Team is about defensive security, meaning it constantly monitors for attacks and tries to respond to them quickly. Depending on a company's size and sector, Blue Team can <br>
+include a lot of different roles and subdepartments, usually counting 3 to 50 members total. Now, let's explore the most common Blue Team departments.
+
+### Security Operations Center (SOC)
+![SOC Team](https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1756425129235.svg)<br><br>
+SOC Team
+
+- L1 Analysts: Junior members who triage alerts and pass complex cases to L2
+- L2 Analysts: Experienced members who investigate more advanced attacks
+- Engineers: Experts in configuring security tools like EDR or SIEM
+- Manager: A person who manages the whole SOC team
