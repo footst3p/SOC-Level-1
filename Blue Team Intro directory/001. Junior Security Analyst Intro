@@ -38,3 +38,133 @@ SOC Team
 - L2 Analysts: Experienced members who investigate more advanced attacks
 - Engineers: Experts in configuring security tools like EDR or SIEM
 - Manager: A person who manages the whole SOC team
+### Cyber Incident Response Team (CIRT)
+If SOC expertise is not enough or the incident goes out of control, you urgently call the "firefighters" - CIRT, also called CSIRT or CERT. The members should have a broad knowledge of cyber <br>
+threats and handle breaches without depending on tools like EDR or SIEM.  A CIRT job is stressful and responsible, but also rewarding.
+### Specialized Defensive Roles
+
+- Digital Forensics Analyst: Uncover hidden threats in disk and memory
+- Threat Intelligence Analyst: Gather data about emerging threat groups
+- AppSec Engineer: Maintain a secure software development lifecycle
+- AI Researcher: Study AI threats and how to defend against them
+
+### SOC Path
+Starting as a SOC L1 analyst may be a great option to broaden your cyber world awareness and better understand the more specialized roles. Moreover, even the entry-level SOC L1 role can be fun <br>
+and engaging: You will deal with real attacks, protect the company from advanced threat groups, and learn a lot during the process. Let's see how you can start:
+
+- Gain core SOC skills and practice them. Related skills like red teaming or general IT would help, too!
+- Be proactive, try yourself in CTFs, stay in the loop of cyber news, and consider the SAL1 certification!
+- Prepare for an interview, learn the difference between an internal SOC and MSSP, and apply for a job!
+- After working for some time in a junior position, consider preparing and advancing to more senior roles!
+
+### Internal SOC vs MSSP
+Not every organization has the expertise to operate a SOC on its own and relies on a Managed Security Services Provider (MSSP), a company that delivers outsourced security services, most commonly SOC,<br>
+to its clients. Working at MSSP is typically high-pressure, but it is also a good option to quickstart your career. 
+### Next Steps
+Your most natural next step after L1 is to become a SOC L2 analyst, but you are free to choose another path! While handling a SIEM alert, you might notice that engineering work appeals to you more.<br>
+During a cyber attack, you may be fascinated by CIRT actions. You may also find yourself well-suited as a manager and build your path to the CISO role. No matter what, your first year or two is to get<br>
+real work experience, and to spend this time effectively, follow the tips below!
+
+Learn from every alert -->> Think like an attcker -->> Verify everything -->> Get involved in incidents.
+
+### Humans as Attack Vectors
+The Security Operations Center (SOC) might sound technical and impressive, but what does it really protect us from?
+### The Human Element
+You're an attacker trying to break into a company. Would you rather:
+
+- Spend days exploiting vulnerabilities and trying to bypass firewall defenses?
+- Or just send a phishing email to the IT administrator - and get the access you need?
+
+A computer network is like a fortress with towering stone walls and heavily armored gates. One way to conquer it is to breach through the gates, but another, a much simpler way - just ask the <br>
+gatekeeper to open the door for you. In the cyber world, humans are often these naive "gatekeepers" - the weakest link in cyber security and those who help threat actors the most.
+
+# Why Humans Are Targeted (Humans as an Attack Vector)
+Humans are targeted because of the access they can provide - to websites, mailboxes, or databases.
+
+# Attacks on Humans
+Attacks targeting humans share a common trait: they rely on manipulating the victim into helping the attacker, whether knowingly or not. This tactic is known as social engineering, and it works by exploiting human psychology rather than technical flaws. For the tactic to succeed, it is designed to be:
+
+- Trustworthy: The attacker must appear legitimate so the victim trusts them
+- Emotional: The attack must trigger feelings like urgency, fear, or curiosity<br><br>
+
+
+- *Phishing Attacks
+You receive an email saying, "Your account has been compromised. Click here for details!" When you click on the link, it takes you to a fake login page that looks real, but sends your credentials to the<br>
+attacker. That's phishing in action. Email phishing is the most common form of social engineering, with an estimated 3.4 billion malicious emails sent daily.
+
+- *Malware Downloads
+Ever searched for and installed the application on your PC? Well, you might have just installed malware on your computer. To make these attacks more successful, threat actors use innovative techniques<br>
+like fake CAPTCHAs, malicious QR codes, and SEO poisoning.
+
+- *Deepfakes
+The rapid rise of AI-generated video or audio has become more effective in impersonating family members, colleagues, or corporate partners. In one case, a finance worker received a deepfake video call 
+from someone appearing to be their boss and got tricked into wiring $25 million for an "urgent business deal".
+
+*Impersonation
+
+Even without deepfakes, the attackers are quite successful in pretending to be someone else (impersonating someone). Many recent ransomware attacks started with a simple phone call from attackers 
+impersonating a corporate IT department and asking victims to take over their accounts for a quick "system repair".
+
+### Defending the Humans
+Defending against threats involves two key tasks: Mitigation and Detection. Mitigation aims to prevent or reduce the chance and impact of attacks, for example by training employees or deploying a good 
+anti-phishing solution. However, no matter how good mitigation measures are, one day they are bypassed. That's where your SOC skills are vital to detect and investigate advanced attacks that slip through:
+
+how to protect employees:
+Anti-phishing tool -->> Employees Training -->> SOC Team handles the remaining attacks
+
+Every organization faces constant attacks targeting its employees. However, the role of the SOC in responding to these attacks.
+
+# Systems as Attack Vectors
+### *Human-Led Attacks
+It's no surprise that system users are often those who start the attack: By inserting a malicious USB found on a street, downloading malware from pirated resources, or simply reusing a weak password<br>
+everywhere. 81% of breaches involve stolen or breached passwords - check out your passwords too!
+
+### *Vulnerabilities
+Every piece of software can have security flaws. In 2024, over 40,000 software vulnerabilities were published and more than 300 were actively exploited in major attacks. Moreover, IT administrators 
+often increase the risks by setting weak passwords and allowing unrestricted access to their systems.
+
+### *Supply Chain
+Your PC is home to hundreds of apps, including web browsers, messengers, development, and entertainment software. Every app depends on thousands of libraries. If threat actors manage to breach one
+of the apps or libraries and push an update to all its users, all of them will be compromised. This technique is called a supply chain attack. The most famous examples are the SolarWinds and 3CX 
+breaches which affected thousands of companies.
+
+### Emerging Threat of Supply Chain
+It is hard to protect from supply chain attacks since you can't always control all the software present on your laptops, servers, and web apps. Even TryHackMe once fell victim to a supply chain 
+in Lottie Player, a library used for room animations. As a SOC analyst, you must be ready for such scenarios and know how to respond!
+
+# Vulnerabilities
+### Software Vulnerabilities
+Every piece of software has flaws, but some take years to be discovered. For example, Shellshock, a major Linux vulnerability, existed since 1992 but wasn't found until 2014. In the worst-case scenario,
+attackers discover the vulnerability before anyone else. This is known as a zero-day, and only your SOC skills can determine whether it gets detected in time.
+
+Once a vulnerability is made public, it is assigned a Common Vulnerabilities and Exposures (CVE) number. From that moment, it's a race: attackers develop exploits while defenders rush to update their 
+systems. Here is the timeline of how Windows vulnerabilities evolve every year:
+
+### Responding to Vulnerabilities
+An answer to a CVE is always a patch - an update supplied by the software vendor. Even for zero-days, you'll have to wait for a patch, vigilantly monitor for exploitation traces, and try to survive 
+the stressful period before the patch is released. For example, by:
+
+- Restricting access to the system to only trusted IPs
+- Applying temporary measures provided by the vendor
+- Blocking known attack patterns on IPS or WAF
+
+# Misconfigurations
+On the other hand, a misconfiguration isn't a bug in the software but a mistake in how the system was set up, often by the IT team. These errors happen frequently, usually to make things simpler, like using
+"1111" instead of typing a long password every time. Let's take a look at some real-world examples.
+
+- How "123456" password exposed chats for 64 million McDonald's job applications
+- How a misconfigured AWS cloud resulted in a breach of 106 million bank customers
+- How improperly configured smart fridges are silently used in full-scale botnet attacks
+
+Another common scenario is when the IT department unknowingly introduces new flaws into secure systems. Below is a simple example of how a critical database can be breached because of the insecure 
+configuration:
+
+# Responding to Misconfigurations
+Misconfigurations do not require a software update - just a better setup. As a SOC analyst, you'll often spot them only after threat actors exploit them. However, in smaller companies, you might also be
+responsible for a more proactive response, for example:
+
+- Penetration Testing: Hire ethical "hackers" who simulate an attack and report on discovered security flaws
+- Vulnerability Scans: Periodically run tools that can detect default passwords or outdated software
+- Configuration Audits: Manually review the systems to match best practices like CIS benchmarks
+
+Note: Remember our fortress analogy? Attackers are opportunists. They'll often seek the easiest path, whether through a flaw in the building itself or by manipulating someone to open a door.
